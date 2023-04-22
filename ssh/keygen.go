@@ -11,7 +11,7 @@ import (
 )
 
 func GenerateKey() ([]byte, []byte, error) {
-	privateKey, err := rsa.GenerateKey(rand.Reader, 8192)
+	privateKey, err := rsa.GenerateKey(rand.Reader, 4096)
 	if err != nil {
 		return nil, nil, fmt.Errorf("unable to generate private key: %v", err)
 	}
