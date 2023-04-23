@@ -5,7 +5,9 @@ This is a simple script to generate SSH keys for a user on a remote server.
 ## Usage
 
 ```bash
+touch main.go
 go get github.com/PunGrumpy/go-ssh-key/ssh
+code main.go
 ```
 
 ```go
