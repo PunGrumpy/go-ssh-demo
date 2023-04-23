@@ -28,4 +28,3 @@ func GenerateKey() ([]byte, []byte, error) {
 
 	return pem.EncodeToMemory(privateKeyPem), ssh.MarshalAuthorizedKey(publicKey), nil
 }
-
