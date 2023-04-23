@@ -1,0 +1,11 @@
+# Key
+*.pem
+*.key
+*.crt
+*.pub
+
+# Logs
+*.log
+
+# Env
+*.env*
