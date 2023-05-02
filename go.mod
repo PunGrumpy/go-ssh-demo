@@ -1,4 +1,4 @@
-module github.com/PunGrumpy/go-ssh-key/ssh
+module github.com/PunGrumpy/go-ssh-demo/ssh
 
 go 1.20
 
