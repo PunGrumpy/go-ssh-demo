@@ -6,7 +6,7 @@ This is a simple script to generate SSH keys for a user on a remote server.
 
 ```bash
 touch main.go
-go get github.com/PunGrumpy/go-ssh-key/ssh
+go get github.com/PunGrumpy/go-ssh-demo/ssh
 code main.go
 ```
 
